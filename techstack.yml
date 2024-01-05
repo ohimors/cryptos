@@ -1,7 +1,8 @@
 repo_name: ohimors/cryptos
 report_id: 57a99801fc258d51489e8717f6a453ae
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T00:23:30+00:00'
+timestamp: '2024-01-05T08:47:22+00:00'
 requested_by: nmielnik
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ohimors/cryptos
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ohimors/cryptos
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nate Mielnik
   last_updated_on: 2017-05-20 16:54:37.000000000 Z
@@ -48,7 +52,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nate Mielnik
   last_updated_on: 2017-05-20 16:54:37.000000000 Z
@@ -62,7 +66,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nate Mielnik
   last_updated_on: 2017-05-20 16:54:37.000000000 Z
@@ -76,7 +80,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
   detection_source: package.json
   last_updated_by: Nate Mielnik
   last_updated_on: 2017-05-20 16:54:37.000000000 Z
