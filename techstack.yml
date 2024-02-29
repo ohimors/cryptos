@@ -1,0 +1,99 @@
+repo_name: ohimors/cryptos
+report_id: 57a99801fc258d51489e8717f6a453ae
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:41:38+00:00'
+requested_by: nmielnik
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ohimors/cryptos
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ohimors/cryptos
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nate Mielnik
+  last_updated_on: 2017-05-20 16:54:37.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nate Mielnik
+  last_updated_on: 2017-05-20 16:54:37.000000000 Z
+- name: bluebird
+  description: Full featured Promises/A+ implementation with exceptionally good performance
+  package_url: https://www.npmjs.com/bluebird
+  version: 3.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nate Mielnik
+  last_updated_on: 2017-05-20 16:54:37.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/ohimors/cryptos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nate Mielnik
+  last_updated_on: 2017-05-20 16:54:37.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Regular Expression Denial of Service in moment
+    cve_id: CVE-2017-18214
+    cve_url: https://github.com/advisories/GHSA-446m-mv8f-q348
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.19.3
